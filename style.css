@@ -1,0 +1,59 @@
+body {
+	background-color: #FF8;
+	font-family: arial;
+}
+
+#header {
+	text-align: center;
+	background-color: #00C;
+	color: white;
+}
+
+#content {
+	text-align: center;
+	background-color: #8FF;
+}
+
+table {
+	border: solid 3px red;
+	margin: auto;
+	background-image: url("table.jpg");
+	background-size: 100% 100%;
+}
+
+th {
+	border: dotted 2px blue;
+}
+
+td {
+	border: solid 2px black;
+}
+
+th#num, td#num, th#hour, td#hour {
+	text-align: center;
+	background-color: #BBB8;
+	font-weight: bold;
+}
+
+th#num {
+	width: 20px;
+}
+
+th#hour {
+	width: 120px;
+}
+
+th#weekday {
+	width: 150px;
+	text-align: center;
+	background-color: #CCC8;
+}
+
+tr#lesson:nth-child(odd) {
+	background-color: #DDD8;
+}
+
+tr#lesson {
+	text-align: center;
+	background-color: #EEE8;
+}
